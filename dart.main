@@ -1,0 +1,39 @@
+void main() {
+ 
+  //true == verdadeiro ou false == falso
+  bool porta =  true;
+    
+    if (porta) {
+      print('abrir a porta');
+    }
+    else {
+         print('fechar a porta');
+        }
+  
+   String semaforo = 'verde';
+  
+  if (semaforo == 'verde') {
+    print('Siga em frente');
+  } else if (semaforo == 'amarelo'){
+    print ('tome cuidado');
+  } else {
+    print('pare');
+  }
+  
+  switch(semaforo) {
+    case 'verde' :
+      print('siga em frente');
+      break;
+    case 'amarelo':
+      print('tome cuidado');
+      break;
+    case 'vermelho':
+      print('pare');
+      break;
+    default:
+      print('Essa cor $semaforo não faz parte do semaforo ');
+  }
+  
+  print('Continuar...');
+  
+}
