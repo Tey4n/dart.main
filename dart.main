@@ -37,3 +37,67 @@ void main() {
   print('Continuar...');
   
 }
+
+void main() {
+ 
+  //true == verdadeiro ou false == falso
+ // bool porta =  true;
+    
+//    if (porta) {
+//      print('abrir a porta');
+//    }
+//    else {
+ //        print('fechar a porta');
+ //       }
+  
+//   String semaforo = 'verde';
+  
+//  if (semaforo == 'verde') {
+ //   print('Siga em frente');
+//  } else if (semaforo == 'amarelo'){
+ //   print ('tome cuidado');
+ // } else {
+//    print('pare');
+//  }
+  
+//  switch(semaforo) {
+//    case 'verde' :
+ //     print('siga em frente');
+ //     break;
+ //   case 'amarelo':
+//      print('tome cuidado');
+//     break;
+//    case 'vermelho':
+//      print('pare');
+//      break;
+//   default:
+ //     print('Essa cor $semaforo não faz parte do semaforo ');
+//  }
+  
+//  print('Continuar...');
+  
+  //i == indexador ou seja index
+  //  0 1 2 3 == + um + aumenta somente 1
+  //  0 2 4 6 == ++ 2 + aumenta 2
+  // i = i +1 executa o index mais 1
+//  for(int i = 0; i <= 5; i++ ) {
+//    print(i);
+//  }
+  
+  int i = 0;
+  
+//  while(i < 5) {
+//    print(i);
+//    //i = i +1;
+//    i++;
+//  }
+  
+  do {
+    print(i);
+    i++;
+    
+  } while(i < 1);
+  
+  print('continuar...');
+  
+}
